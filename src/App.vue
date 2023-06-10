@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>Random Person Generator App</h1>
+    <h2>This app generates random profiles and information about fictional individuals. </h2>
+  <PersonGenerator/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PersonGenerator from './components/PersonGenerator.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PersonGenerator
   }
 }
 </script>
@@ -21,6 +22,19 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  width: 400px;
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2{
+  margin-bottom: 1rem;
+  font-weight: normal;
 }
 </style>
