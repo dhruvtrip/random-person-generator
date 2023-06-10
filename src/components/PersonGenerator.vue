@@ -18,7 +18,7 @@ export default {
       firstName: 'Vue',
       lastName: 'JS',
       email: 'vue.js@email.com',
-      gender: 'male',
+      gender: 'none',
     }},
   
   
@@ -76,6 +76,12 @@ img {
 .female {
   border-color: pink;
   background-color: pink;
+  color: #333;
+}
+
+.none {
+  border-color: rgb(245, 243, 243);
+  background-color: rgb(223, 217, 217);
   color: #333;
 }
 
