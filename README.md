@@ -24,7 +24,11 @@ This app utilizes the [Random User Generator API](https://randomuser.me/) to ret
 2. Navigate to the project directory: cd random-person-generator
 3. Install the dependencies: npm install
 4. Run the development server: nprm run serve
-5. Open your browser and visit `http://localhost:8080` to see the app in action.
+5. Open your browser and visit
+
+https://github.com/dhruvtrip/random-person-generator/assets/16800201/4e68f21f-b6de-4115-8242-a51f669eb035
+
+ `http://localhost:8080` to see the app in action.
 
 ## License
 
